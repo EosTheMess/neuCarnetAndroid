@@ -1,0 +1,18 @@
+*** Begin Patch
+*** Add File: app/src/main/res/values/colors_neumo.xml
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <!-- Neumorphic base palette -->
++    <color name="neumo_background">#E6E9EE</color>
++    <color name="neumo_surface">#E6E9EE</color>
++    <color name="neumo_shadow_dark">#BFC6D0</color>
++    <color name="neumo_shadow_light">#FFFFFF</color>
++    <color name="neumo_accent">#6E84A3</color>
++    <color name="neumo_text_primary">#222833</color>
++    <color name="neumo_text_secondary">#58606a</color>
++    <!-- variants for pressed / inset states -->
++    <color name="neumo_surface_pressed">#D9DEE6</color>
++    <color name="neumo_surface_focused">#F0F3F7</color>
++</resources>
++
+*** End Patch
